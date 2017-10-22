@@ -1,0 +1,17 @@
+bilibili番剧索引参数
+page:1		//页数
+page_size:20	//每页数量
+version:1	//类型 0(全部) 1(正片) 3(剧场版) 4(其他)
+is_finish:2	//是否完结 0（全部） 2（完结）1（连载）
+start_year:2017	//年份	1984--最新
+tag_id:57	//风格  81(萌系) 70(搞笑) 20(热血) 104(催泪) 105(机战) 71(科幻) 57(奇幻) 124(推理) 93(校园) 95(战斗) 122(魔法) 138(励志)
+index_type:1	//排序类型 0(更新时间) 1(追番人数) 2（开播时间）
+index_sort:0	//排序方式 0（降序）1（升序）
+area:2		//地区	0(全部) 2(日本) 3(美国) 4(其他)
+quarter:1	//季度 0（第一季度）1（第二）2（第三）3（第四）
+
+bilibili番剧信息
+url=http://bangumi.bilibili.com/anime/5997.ver
+callback:seasonListCallback
+jsonp:jsonp
+_:1508554561770

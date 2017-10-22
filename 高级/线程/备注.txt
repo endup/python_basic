@@ -1,0 +1,16 @@
+协程里面有个库叫Gevent
+
+不能用普通方式pip安装
+要下载源代码库whl在pip安装
+
+首先pip install wheel
+然后下载好对应的gevent库的whl文件
+然后pip install XXX.whl
+
+
+PS:
+http://www.lfd.uci.edu/~gohlke/pythonlibs/
+
+python
+import pip; 
+print(pip.pep425tags.get_supported())
