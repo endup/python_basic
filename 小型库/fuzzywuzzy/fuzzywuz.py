@@ -1,0 +1,5 @@
+from fuzzywuzzy import fuzz
+#用于字符串匹配率、令牌匹配等
+#判断两组字符串的相似程度
+a=fuzz.ratio("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbb")
+print(a)
